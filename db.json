@@ -5,36 +5,78 @@
     "user": {
       "id": 1,
       "name": "John",
-      "email": "john@playspots.in"
-      "image": ""
+      "email": "john@playspots.in",
+      "image": "https://i.insider.com/5c9426cd75d0c709b21ba683?width=1300&format=jpeg&auto=webp"
     }
   },
   "stories": [
     {
       "id": 3,
       "title": "This is my first story",
-      "image": "https://cdn.pixabay.com/photo/2017/11/12/09/05/black-2941843_1280.jpg"
+      "read_status" : false,
+      "image": "https://cdn.pixabay.com/photo/2017/11/12/09/05/black-2941843_1280.jpg",
       "profile": {
         "id": 69,
-        "name": "John Snow"
-        "optimized": "https://dev-biolink.s3.us-east-2.amazonaws.com/uploads/thumbnails/2021-09-24/0NiGZ4L5luGNdl1t8ea6c3dcf8fd9b98.jpg",
-        "blurhash": null,
-        "color": "#000000"
+        "name": "Jon Snow",
+        "image": "https://i.insider.com/57b4cabb04732f18008b4e47?width=1300&format=jpeg&auto=webp"
       }
      },
     
     {
       "id": 4,
-      "profile_id" : 10
       "title": "This is my second story",
-      "image": "https://cdn.pixabay.com/photo/2021/10/23/07/27/forest-6734296_1280.jpg"
+      "read_status" : false,
+      "image": "https://cdn.pixabay.com/photo/2021/10/23/07/27/forest-6734296_1280.jpg",
       "profile": {
         "id": 69,
-        "name": "John Snow"
-        "optimized": "https://dev-biolink.s3.us-east-2.amazonaws.com/uploads/thumbnails/2021-09-24/0NiGZ4L5luGNdl1t8ea6c3dcf8fd9b98.jpg",
-        "blurhash": null,
-        "color": "#000000"
+        "name": "Jon Snow",
+        "image": "https://i.insider.com/57b4cabb04732f18008b4e47?width=1300&format=jpeg&auto=webp"
       }
-     }
+     },
+     {
+       "id": 5,
+       "title": "This is my third story without image",
+       "read_status" : false,
+       "image": null,
+       "profile": {
+         "id": 69,
+         "name": "Jon Snow",
+         "image": "https://i.insider.com/57b4cabb04732f18008b4e47?width=1300&format=jpeg&auto=webp"
+       }
+      },
+      {
+        "id": 6,
+        "title": "This is my another story with another man",
+        "read_status" : true,
+        "image": "https://cdn.pixabay.com/photo/2021/01/01/21/31/halloween-5880068_1280.jpg",
+        "profile": {
+          "id": 70,
+          "name": "Tyirion Lannister",
+          "image": "https://i.insider.com/5c9425fe75d0c70995553162?width=1300&format=jpeg&auto=webp"
+        }
+       },
+       {
+        "id": 7,
+        "title": "This is my last of final story",
+        "read_status" : false,
+        "image": "https://cdn.pixabay.com/photo/2020/10/09/20/30/pumpkins-5641482_1280.jpg",
+        "profile": {
+          "id": 71,
+          "name": "Arya Stark",
+          "image": "https://i.insider.com/5c94276ad810d209c17c9a82?width=1300&format=jpeg&auto=webp"
+        }
+       },
+
+       {
+        "id": 7,
+        "title": "This is my final story, with out any image",
+        "read_status" : false,
+        "image": "",
+        "profile": {
+          "id": 71,
+          "name": "Arya Stark",
+          "image": "https://i.insider.com/5c94276ad810d209c17c9a82?width=1300&format=jpeg&auto=webp"
+        }
+       }
   ]
 }
