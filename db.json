@@ -1,1 +1,273 @@
 
+{
+  "login": {
+    "message": "You have logged in successfully",
+    "user": {
+      "id": 101,
+      "pageid": 3,
+      "name": "John",
+      "email": "john@buymeacoffee.com"
+    }
+  },
+  "pages": [
+    {
+      "id": 3,
+      "username": "johndoe",
+      "title": "John",
+      "bio_line": "App developer",
+      "profile_picture": {
+        "id": 69,
+        "optimized": "https://dev-biolink.s3.us-east-2.amazonaws.com/uploads/thumbnails/2021-09-24/0NiGZ4L5luGNdl1t8ea6c3dcf8fd9b98.jpg",
+        "blurhash": null,
+        "color": "#000000"
+      },
+      "social_links": [
+        {
+          "id": 1,
+          "url": "https://facebook.com/john",
+          "social_type": "facebook"
+        },
+        {
+          "id": 2,
+          "url": "mailto:john@buymeacoffee.com",
+          "social_type": "email"
+        },
+        {
+          "id": 3,
+          "url": "https://twitter.com/john",
+          "social_type": "twitter"
+        }
+      ]
+    }
+  ],
+  "pageitems": [
+    {
+      "id": 79,
+      "type": "LINK",
+      "title": "Buy me a coffee",
+      "url": "https://www.buymeacoffee.com/john",
+      "thumbnail": {
+        "id": 61,
+        "optimized": "https://dev-biolink.s3.us-east-2.amazonaws.com/uploads/thumbnails/2021-09-23/xw8E5nYMls4iYBwH96c79202009beb07.jpg",
+        "blurhash": null,
+        "color": "#000000"
+      },
+      "page_id": 3
+    },
+    {
+      "id": 80,
+      "type": "TAGLINE",
+      "title": "Heading",
+      "thumbnail": null,
+      "page_id": 3
+    },
+    {
+      "id": 71,
+      "type": "LINK",
+      "title": "As google",
+      "url": "https://google.com",
+      "thumbnail": {
+        "id": 62,
+        "optimized": "https://dev-biolink.s3.us-east-2.amazonaws.com/uploads/thumbnails/2021-09-23/QP4nXWk9mz1JaKLSploaded_aPE3aPfl.gif",
+        "blurhash": null,
+        "color": "#ffffff"
+      },
+      "page_id": 3
+    },
+    {
+      "id": 72,
+      "type": "LINK",
+      "title": "google",
+      "url": "Https://www.google.com",
+      "page_id": 3
+    }
+  ],
+"themes" : [
+  {
+    "id": 1,
+    "name": "Basics",
+    "style": {
+      "button": {
+        "box_shadow": "#18274b1f",
+        "text_color": "#0D0C22",
+        "border_type": "0px solid #FFFFFF",
+        "button_type": "curved_fill",
+        "border_color": null,
+        "border_radius": "30px",
+        "primary_color": "#FFFFFF"
+      },
+      "background": {
+        "text_color": "#0D0C22",
+        "primary_color": "#FFFFFF",
+        "background_type": "flat",
+        "secondary_color": "#FFFFFF"
+      }
+    }
+  },
+  {
+    "id": 8,
+    "name": "Carbon",
+    "style": {
+      "font": {
+        "key": "inter",
+        "font_bold": 700,
+        "font_size": "16px",
+        "font_type": "'Inter', sans-serif",
+        "font_medium": 400,
+        "font_normal": 600,
+        "font_size_lg": "18px"
+      },
+      "button": {
+        "box_shadow": "#18274b1f",
+        "text_color": "#ffffff",
+        "border_type": "0px solid transparent",
+        "button_type": "curved_md_fill",
+        "border_color": null,
+        "border_radius": "8px",
+        "primary_color": "#212121"
+      },
+      "background": {
+        "css": null,
+        "text_color": "#ffffff",
+        "primary_color": "#131212",
+        "background_type": "flat",
+        "secondary_color": "#131212"
+      }
+    }
+  },
+  {
+    "id": 9,
+    "name": "Summer Time",
+    "style": {
+      "font": {
+        "key": "dmsans",
+        "font_bold": 700,
+        "font_size": "16px",
+        "font_type": "'DM Sans', cursive",
+        "font_medium": 400,
+        "font_normal": 600,
+        "font_size_lg": "18px"
+      },
+      "button": {
+        "box_shadow": null,
+        "text_color": "#0D0C22",
+        "border_type": "0px solid #FFE400",
+        "button_type": "fill",
+        "border_color": null,
+        "border_radius": "0px",
+        "primary_color": "#FFE400"
+      },
+      "background": {
+        "text_color": "#FFFFFF",
+        "primary_color": "#1ABCFE",
+        "background_type": "flat",
+        "secondary_color": "#1ABCFE"
+      }
+    }
+  },
+  {
+    "id": 10,
+    "name": "Neon",
+    "style": {
+      "font": {
+        "key": "bebas_neue",
+        "font_bold": 400,
+        "font_size": "16px",
+        "font_type": "'Bebas Neue', cursive",
+        "font_medium": 400,
+        "font_normal": 400,
+        "font_size_lg": "20px"
+      },
+      "button": {
+        "background": null,
+        "box_shadow": "rgba(255, 255, 255, 0.5)",
+        "text_color": "#CEEDFF",
+        "button_type": "curved_fill",
+        "border_color": null,
+        "border_radius": "30px",
+        "primary_color": "rgba(196, 196, 196, 0.01)"
+      },
+      "background": {
+        "animation": "rotate_bg",
+        "text_color": "#CEEDFF",
+        "primary_color": "#0e2937",
+        "background_type": "image",
+        "background_image": {
+          "blurhash": "L01pD4$kUvMILH%%$:vnl?P,ghsG",
+          "optimized": "https://cdn.bio.link/themes/backgrounds/neon.jpg"
+        }
+      }
+    }
+  },
+  {
+    "id": 11,
+    "name": "Glassmorphism",
+    "style": {
+      "font": {
+        "key": "poppins",
+        "font_bold": 600,
+        "font_size": "16px",
+        "font_type": "'Poppins', sans-serif",
+        "font_medium": 400,
+        "font_normal": 600,
+        "font_size_lg": "18px"
+      },
+      "button": {
+        "background": null,
+        "box_shadow": "#00000008",
+        "text_color": "#320A0C",
+        "border_type": "1px solid rgba(255,255,255,0.3)",
+        "button_type": "curved_fill",
+        "border_color": "#ffffff4d",
+        "border_radius": "30px",
+        "primary_color": "linear-gradient(263.81deg, rgba(255, 255, 255, 0.4) 18.8%, rgba(255, 255, 255, 0) 73.34%), rgba(255, 255, 255, 0.25)"
+      },
+      "background": {
+        "text_color": "#320A0C",
+        "primary_color": "#FFF4EA",
+        "background_type": "image",
+        "background_image": {
+          "id": null,
+          "color": "",
+          "blurhash": "L6THA@*Kc?x]:fQ8hdjGVkkrkpeS",
+          "optimized": "https://cdn.bio.link/themes/backgrounds/glassmorphism.jpg"
+        }
+      }
+    }
+  },
+  {
+    "id": 17,
+    "name": "Strawberry",
+    "style": {
+      "font": {
+        "key": "dmsans",
+        "font_bold": 700,
+        "font_size": "16px",
+        "font_type": "'DM Sans', sans-serif",
+        "font_medium": 400,
+        "font_normal": 600,
+        "font_size_lg": "18px"
+      },
+      "button": {
+        "css": "",
+        "box_shadow": null,
+        "text_color": "#000000",
+        "border_type": "0px solid #000000",
+        "button_type": "fill",
+        "border_color": null,
+        "border_radius": "8px",
+        "primary_color": "#ffffff"
+      },
+      "background": {
+        "text_color": "#FFFFFF",
+        "primary_color": "#FD49A0",
+        "background_type": "flat",
+        "background_image": {
+          "blurhash": "L1T2w,=Mae=M}IfQjtfQaefQfQfQ",
+          "optimized": "https://cdn.bio.link/themes/backgrounds/strawberry.png"
+        }
+      }
+    }
+  }
+]
+}
